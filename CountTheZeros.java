@@ -16,6 +16,7 @@ class CountTheZeros{
 		    int start=0,end=n-1,mid;
 		    boolean flag=false;
 		    while (start<=end){
+			    //mid
 		        mid=(start+end)/2;
 		        if ((mid==0 || ar[mid-1]==1) && (ar[mid]==0)){
 		            System.out.println(n-mid);
