@@ -12,6 +12,7 @@ class ElementAppearingOnce{
 		    int n=sc.nextInt();
 		    int ar[]=new int[n];
 		    int temp=sc.nextInt();
+		    //XOR
 		    for (int i=1;i<n;i++){
 		        int tx=sc.nextInt();
 		        temp=temp^tx;
