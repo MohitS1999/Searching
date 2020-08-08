@@ -1,4 +1,4 @@
-/*package whatever //do not write package name here */
+
 //https://practice.geeksforgeeks.org/problems/maximum-no-of-1s-row/0
 import java.util.*;
 import java.lang.*;
