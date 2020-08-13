@@ -16,6 +16,8 @@ class MaxValueInBitonicArray{
 	        int end=n-1;
 	        while (start<=end){
 	            int mid=(start+end)/2;
+			
+		    //Mid condition 
 	            if ((mid==0) || ar[mid]>ar[mid-1] && ( mid==n-1 || ar[mid] > ar[mid+1]))
 	                {
 	                    System.out.println(ar[mid]);
