@@ -16,7 +16,7 @@ class MissingElementOfAp{
 		        ar[i]=Integer.parseInt(s[i]);
 		        sum+=ar[i];
 		    }
-			//SUm of Ap Series
+			//Sum of Ap Series
 		    int sumOfAp=(n+1)*(ar[0]+ar[n-1])/2;
 		    System.out.println(sumOfAp-sum);
 		}
